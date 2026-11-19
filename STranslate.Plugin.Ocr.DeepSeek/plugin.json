@@ -1,0 +1,10 @@
+{
+  "PluginID": "ea7637e30bab4da9b66e9ae77b8833bd",
+  "Name": "DeepSeek OCR",
+  "Description": "DeepSeek OCR plugin for STranslate",
+  "Author": "monbed",
+  "Version": "1.0.0",
+  "Website": "https://github.com/monbed/STranslate.Plugin.Ocr.DeepSeek",
+  "ExecuteFileName": "STranslate.Plugin.Ocr.DeepSeek.dll",
+  "IconPath": "icon.png"
+}

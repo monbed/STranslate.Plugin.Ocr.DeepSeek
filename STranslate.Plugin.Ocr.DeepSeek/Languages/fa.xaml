@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url">نشانی API</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url_Description">نشانی سرویس DeepSeek API را تنظیم کنید. اگر خالی بماند، نشانی رسمی https://api.deepseek.com استفاده می‌شود.&#x0a;اگر نشانی به /tools/ocr ختم نشود، به‌طور خودکار تکمیل می‌شود؛ برای نمونه https://api.deepseek.com به https://api.deepseek.com/v1/tools/ocr تبدیل می‌شود.&#x0a;با افزودن # در انتها، همان نشانی واردشده بدون تکمیل استفاده می‌شود.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey">کلید API</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Placeholder">کلید را وارد کنید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Description">کلید DeepSeek API خود را وارد کنید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode">حالت تشخیص</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode_Description">«TextRecognition» تشخیص متن است؛ «RichLayoutRecognition» تشخیص چیدمان است و مختصات متن را برمی‌گرداند. برای استفاده از این سرویس به‌عنوان OCR در ترجمهٔ تصویر، آن را انتخاب کنید.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official">دریافت کلید API</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official_Description">در پلتفرم DeepSeek یک کلید API بسازید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Validate_Description">برای بررسی تنظیمات یک تصویر آزمایشی ارسال می‌شود؛ هزینهٔ ۱ صفحه محاسبه می‌شود</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKeyMissing">ابتدا کلید DeepSeek API خود را وارد کنید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Truncated">خروجی تشخیص به سقف طول رسید؛ ممکن است نتیجه ناقص باشد</sys:String>
+
+</ResourceDictionary>

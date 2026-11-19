@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url">エンドポイント</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url_Description">DeepSeek API のアドレスを設定します。空欄の場合は公式アドレス https://api.deepseek.com を使用します。&#x0a;アドレスが /tools/ocr で終わらない場合は自動的に補完されます（例：https://api.deepseek.com は https://api.deepseek.com/v1/tools/ocr になります）。&#x0a;末尾に # を付けると、入力したアドレスをそのまま使用します。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey">API キー</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Placeholder">キーを入力してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Description">DeepSeek の API キーを入力してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode">認識モード</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode_Description">「TextRecognition」は文字認識、「RichLayoutRecognition」はレイアウト認識で、文字の座標を返します。画像翻訳の OCR サービスとして使う場合はこちらを選択してください。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official">API キーの取得</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official_Description">DeepSeek プラットフォームで API キーを作成します</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Validate_Description">テスト画像を送信して設定を検証します。1 ページ分が課金されます</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKeyMissing">先に DeepSeek の API キーを入力してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Truncated">認識結果が長さの上限に達したため、結果が不完全な可能性があります</sys:String>
+
+</ResourceDictionary>

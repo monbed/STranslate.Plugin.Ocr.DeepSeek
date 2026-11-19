@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url">URL</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url_Description">Configure the DeepSeek API service address. Leave empty to use the official address https://api.deepseek.com.&#x0a;If the address does not end with /tools/ocr, it is completed automatically, e.g. https://api.deepseek.com becomes https://api.deepseek.com/v1/tools/ocr.&#x0a;End with # to use the exact address as entered, without completion.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey">ApiKey</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Placeholder">Please enter your API key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Description">Enter your DeepSeek API key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode">Recognition mode</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode_Description">"TextRecognition" recognizes text; "RichLayoutRecognition" recognizes the layout and returns text coordinates. Select it to use this service as the OCR for image translation.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official">Get an API key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official_Description">Create an API key on the DeepSeek Platform</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Validate_Description">Sends a test image to verify the configuration; billed as 1 page</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKeyMissing">Please enter your DeepSeek API key first</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Truncated">The recognition output reached the length limit; the result may be incomplete</sys:String>
+
+</ResourceDictionary>

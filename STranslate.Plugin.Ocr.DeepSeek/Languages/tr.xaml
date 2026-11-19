@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url">Uç Nokta</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url_Description">DeepSeek API hizmet adresini yapılandırın. Boş bırakılırsa resmi adres https://api.deepseek.com kullanılır.&#x0a;Adres /tools/ocr ile bitmiyorsa otomatik olarak tamamlanır; örneğin https://api.deepseek.com için https://api.deepseek.com/v1/tools/ocr kullanılır.&#x0a;Adresin sonuna # eklerseniz girilen adres tamamlanmadan olduğu gibi kullanılır.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey">API Anahtarı</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Placeholder">Lütfen anahtarınızı girin</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Description">DeepSeek API anahtarınızı girin</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode">Tanıma modu</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode_Description">"TextRecognition" metin tanıma, "RichLayoutRecognition" sayfa düzeni tanımadır ve metin koordinatlarını döndürür. Bu hizmeti görsel çevirisinde OCR olarak kullanmak için onu seçin.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official">API anahtarı al</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official_Description">DeepSeek Platformu'nda bir API anahtarı oluşturun</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Validate_Description">Yapılandırmayı doğrulamak için bir test görseli gönderir; 1 sayfa olarak ücretlendirilir</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKeyMissing">Lütfen önce DeepSeek API anahtarınızı girin</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Truncated">Tanıma çıktısı uzunluk sınırına ulaştı; sonuç eksik olabilir</sys:String>
+
+</ResourceDictionary>

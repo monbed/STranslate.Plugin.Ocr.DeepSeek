@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url">Адрес API</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url_Description">Укажите адрес сервиса DeepSeek API. Если оставить пустым, используется официальный адрес https://api.deepseek.com.&#x0a;Если адрес не заканчивается на /tools/ocr, он дополняется автоматически: например, для https://api.deepseek.com запрос идёт на https://api.deepseek.com/v1/tools/ocr.&#x0a;Добавьте # в конце, чтобы использовать адрес в точности как введён, без дополнения.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey">API-ключ</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Placeholder">Введите ключ</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Description">Введите ваш API-ключ DeepSeek</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode">Режим распознавания</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode_Description">«TextRecognition» — распознавание текста; «RichLayoutRecognition» — распознавание макета, возвращает координаты текста. Выберите его, чтобы использовать сервис как OCR для перевода изображений.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official">Получить API-ключ</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official_Description">Создайте API-ключ на платформе DeepSeek</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Validate_Description">Отправляет тестовое изображение для проверки настроек; оплачивается как 1 страница</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKeyMissing">Сначала введите API-ключ DeepSeek</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Truncated">Результат распознавания достиг предела длины и может быть неполным</sys:String>
+
+</ResourceDictionary>

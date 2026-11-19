@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url">網址</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Url_Description">設定 DeepSeek API 服務位址，留空則使用官方位址 https://api.deepseek.com&#x0a;位址不以 /tools/ocr 結尾時會自動補全，如 https://api.deepseek.com 實際請求 https://api.deepseek.com/v1/tools/ocr&#x0a;以 # 結尾則強制使用填寫的位址，不做補全</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey">API 金鑰</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Placeholder">請輸入金鑰</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKey_Description">輸入您的 DeepSeek API 金鑰</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode">辨識模式</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Mode_Description">「TextRecognition」為文字辨識；「RichLayoutRecognition」為版面辨識，會傳回文字座標，用作圖片翻譯的 OCR 服務時需要選擇它</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official">取得金鑰</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Official_Description">在 DeepSeek 開放平台建立 API 金鑰</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Validate_Description">傳送一張測試圖片驗證設定，按辨識 1 頁計費</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_ApiKeyMissing">請先填寫 DeepSeek API 金鑰</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_DeepSeek_Truncated">辨識輸出達到長度上限，結果可能不完整</sys:String>
+
+</ResourceDictionary>
